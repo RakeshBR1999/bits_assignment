@@ -22,7 +22,7 @@ For example, given
 3. Perform an analysis for the features above and give the running time in terms of input size: n.
 
 
-### Design Document for Binary Search Tree Construction and Traversal
+## Design Document for Binary Search Tree Construction and Traversal
 
 #### Introduction
 The purpose of this design document is to outline the steps for constructing a binary search tree (BST) and performing various traversals on the tree. The BST will be constructed using a list of strings and a priority order, where the priority of each string is determined by the first character in the string. The traversals will include pre-order traversal, which prints the values of the nodes in order from smallest to largest, and finding the number of nodes in the tree with the same string count, the largest string count and the duplicate strings, and the level or height of a node in the tree.
