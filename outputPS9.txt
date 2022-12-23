@@ -1,0 +1,62 @@
+1. Figure out how many characters in each input value of all the nodes in the tree?
+
+80186356719--->has 11 Characters
+Arrogance--->has 9 Characters
+Arrogance--->has 9 Characters
+arrogance--->has 9 Characters
+arrange--->has 7 Characters
+Imple1983^4#@--->has 13 Characters
+18902678mk362--->has 13 Characters
+$we456try--->has 9 Characters
+9type21#jr--->has 10 Characters
+!9n6lq0@p74jxaal--->has 16 Characters
+
+These are the total 10 nodes in the tree with character count of each node as above
+
+2. Identify how many nodes in the tree are with the same string count and mention those words under the relevant count list.
+
+There are 4 nodes with same string count as 9
+['Arrogance', 'Arrogance', 'arrogance', '$we456try']--->9
+
+There are 2 nodes with same string count as 13
+['Imple1983^4#@', '18902678mk362']--->13
+
+3. List out all the given input words based on the order of priority as mentioned in the problem statement from highest to least/least to highest.
+
+List of input word based on the order of Priority(higest to least)
+
+$we456try
+!9n6lq0@p74jxaal
+9type21#jr
+80186356719
+18902678mk362
+Imple1983^4#@
+Arrogance
+Arrogance
+arrogance
+arrange
+
+
+4. Find out the largest string count and the duplicate string after comparing all the nodes in the tree and those nodes position/level in the binary search tree.
+
+Largest string in all the nodes is with 16 as string count and it is at level 3 in the BST..!
+
+Duplicate input string in all the nodes is/are 
+
+Arrogance node repeated for 2 times is at level  1 in the BST..!
+
+
+5. Specify all the node input values in the preorder traversal of BST.
+
+Preorder traversal of the BST is
+
+80186356719
+Arrogance
+Arrogance
+arrogance
+arrange
+Imple1983^4#@
+18902678mk362
+$we456try
+9type21#jr
+!9n6lq0@p74jxaal
