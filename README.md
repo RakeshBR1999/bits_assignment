@@ -25,7 +25,7 @@ For example, given
 ## Design Document for Binary Search Tree Construction and Traversal
 
 #### Introduction
-The purpose of this design document is to outline the steps for constructing a binary search tree (BST) and performing various traversals on the tree. The BST will be constructed using a list of strings and a priority order, where the priority of each string is determined by the first character in the string. The traversals will include pre-order traversal, which prints the values of the nodes in order from smallest to largest, and finding the number of nodes in the tree with the same string count, the largest string count and the duplicate strings, and the level or height of a node in the tree.
+The purpose of this design document is to outline the steps for constructing a binary search tree (BST) and performing various traversals on the tree. The BST will be constructed using a list of strings and a priority order, where the priority of each string is determined by the first character in the string. The traversals will include pre-order traversal, which prints the values of the nodes pre order from smallest to largest, and finding the number of nodes in the tree with the same string count, the largest string count and the duplicate strings, and the level or height of a node in the tree.
 
 #### Data Structures
     Node class: This class represents a single node in the BST. It has the following attributes:
@@ -39,7 +39,7 @@ The purpose of this design document is to outline the steps for constructing a b
 
     init: This method initializes the root node of the BST.
     insert: This method inserts a new node into the BST. It takes a value and a priority as input and creates a new node with these values. It then traverses the tree to find the correct position for the new node based on the priority.
-    in_order_traversal: This method performs an pre-order traversal of the BST, printing the values of the nodes in order from smallest to largest.
+    in_order_traversal: This method performs an pre-order traversal of the BST, printing the values of the nodes pre order from smallest to largest.
     count_nodes: This method counts the number of nodes in the BST with the same string count and returns a dictionary with the string count as the key and a list of strings with that count as the value.
     find_largest_string_count: This method finds the largest string count in the BST and returns the count and a list of strings with that count.
     find_duplicates: This method finds the duplicate strings in the BST and returns a list of these strings.
