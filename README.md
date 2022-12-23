@@ -64,8 +64,8 @@ Create a new node with the given value and priority.
     To perform an Pre-order traversal of the BST, the following steps are performed:
 
     If the current node is None, return.
-    Recursively traverse the left subtree.
     Print the value of the current node.
+    Recursively traverse the left subtree.
     Recursively traverse the right subtree.
 
 ## Run time analysis
