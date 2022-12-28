@@ -1,3 +1,8 @@
+import sys
+
+# Redirect stdout to a file
+sys.stdout = open('outputPS9.txt', 'w')
+
 class Node:
     def __init__(self, value, priority):
         self.value = value
@@ -198,3 +203,6 @@ print("5. Specify all the node input values in the preorder traversal of BST.",e
 # printing the values in preorder
 print("Preorder traversal of the BST is",end="\n\n")
 bt.pre_order_traversal(bt.root)
+
+#closing the output file
+sys.stdout.close()
